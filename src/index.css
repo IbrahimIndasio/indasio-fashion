@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Marcellus:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-display: "Marcellus", serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+body { margin: 0; }
+button, a { cursor: pointer; }
